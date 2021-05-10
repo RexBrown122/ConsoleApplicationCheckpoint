@@ -6,7 +6,13 @@ namespace ConsoleApplicationCheckpoint
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int myInt = 12;
+            Console.WriteLine("myInt Initial Value: " + myInt);
+
+            myInt *= myInt;
+            myInt += 14;
+            myInt -= 3;
+            Console.WriteLine("myInt Manipulated Value: " + myInt);
         }
     }
 }
